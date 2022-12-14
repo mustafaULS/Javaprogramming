@@ -18,11 +18,13 @@ public class Shape {
     }
 
 
-    // dont make it private method . other class cant use or overriding
+
     public Shape(String name) {
         setName(name);
     }
 
+
+    // dont make it private method . other class cant use or overriding
     public double area(){
         return 0;
     }

@@ -37,7 +37,7 @@ public class Person {
     }
 
     public void setGender(char gender) {
-        if (!(gender == 'M' || gender == 'f')) {
+        if (!(gender == 'M' || gender == 'F')) {
             System.err.println("Invalid gender" + gender);
             System.exit(1);
         }

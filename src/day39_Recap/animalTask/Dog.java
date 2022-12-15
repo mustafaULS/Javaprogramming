@@ -13,6 +13,9 @@ public class Dog extends FriendlyAnimal {
         System.out.println(getName()+" is barking");
     }
 
-
+    @Override
+    public void eat() {
+        System.out.println(getName()+" is eating dog food");
+    }
 
 }

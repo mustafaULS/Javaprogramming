@@ -10,4 +10,9 @@ public class Eagle extends WildAnimal {
     public void hunt() {
         System.out.println(getName()+" is hunting");
     }
+
+    public void fly(){
+        System.out.println(getName()+" is flying");
+    }
+
 }

@@ -45,6 +45,12 @@ public class FriendlyAnimal extends Animal {
 
     public String toString() {
         return "FriendlyAnimal{" +
+                "name='" + getName() + '\'' +
+                ", breed='" + getBreed() + '\'' +
+                ", gender=" + getGender() +
+                ", age=" + getAge() +
+                ", size='" + getSize() + '\'' +
+                ", color='" + getColor() + '\'' +
                 "isWild=" + isWild +
                 ", isFriendly=" + isFriendly +
                 ", isPlayable=" + isPlayable +
